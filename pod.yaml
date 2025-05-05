@@ -3,41 +3,38 @@ kind: Pod
 metadata:
   name: homework-pod
   namespace: homework
+  labels:
+    app: homework
 spec:
   volumes:
-    - name: homework-volume
-      emptyDir: {}
+    - name: shared-volume
+      emptyDir: {} #Создаём временное хранилище на время жизни пода, все контейнеры в поде могут использовать этот том
+    - name: config-volume  # Загружаем данные с Config map
+      configMap:
+        name: nginx-config
+
   initContainers:
-    - name: generate-index
-      image: busybox:latest
-      command:
-        - sh
-        - -c
-        - |
-          echo "<!DOCTYPE html>
-<html>
-<head>
-<title>Index</title>
-</head>
-<body>
-<h1>Welcome to the Homework Web Server</h1>
-</body>
-</html>" > /init/index.html
+    - name: init-container
+      image: busybox
+      command: ["/bin/sh", "-c"]
+      args:
+        - echo "<h1>OTUS HomeWORK 1</h1>" > /init/index.html;
       volumeMounts:
-        - name: homework-volume
+        - name: shared-volume
           mountPath: /init
+
   containers:
     - name: web-server
-      image: nginx:latest
+      image: nginx
       ports:
         - containerPort: 8000
       volumeMounts:
-        - name: homework-volume
+        - name: shared-volume
           mountPath: /homework
+        - name: config-volume
+          mountPath: /etc/nginx/nginx.conf # Монтируем данные из Configmap - т.е. заменяем стандартный конфиг nginx
+          subPath: nginx.conf
       lifecycle:
-        preStop:
-          exec:
+        preStop: #выполняется до завершения контейнера
+          exec: #указываем какую команду надо выполнить с консоли.
             command: ["/bin/sh", "-c", "rm -f /homework/index.html"]
-  restartPolicy: Never
-  # Обратите внимание, что политика перезапуска может быть выбрана в зависимости от задачи
-
