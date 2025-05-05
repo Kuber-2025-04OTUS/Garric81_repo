@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: homework-pod
+  namespace: homework
+spec:
+  volumes:
+    - name: homework-volume
+      emptyDir: {}
+  initContainers:
+    - name: generate-index
+      image: busybox:latest
+      command:
+        - sh
+        - -c
+        - |
+          echo "<!DOCTYPE html>
+<html>
+<head>
+<title>Index</title>
+</head>
+<body>
+<h1>Welcome to the Homework Web Server</h1>
+</body>
+</html>" > /init/index.html
+      volumeMounts:
+        - name: homework-volume
+          mountPath: /init
+  containers:
+    - name: web-server
+      image: nginx:latest
+      ports:
+        - containerPort: 8000
+      volumeMounts:
+        - name: homework-volume
+          mountPath: /homework
+      lifecycle:
+        preStop:
+          exec:
+            command: ["/bin/sh", "-c", "rm -f /homework/index.html"]
+  restartPolicy: Never
+  # Обратите внимание, что политика перезапуска может быть выбрана в зависимости от задачи
