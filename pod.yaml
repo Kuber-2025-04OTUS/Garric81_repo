@@ -40,3 +40,4 @@ spec:
             command: ["/bin/sh", "-c", "rm -f /homework/index.html"]
   restartPolicy: Never
   # Обратите внимание, что политика перезапуска может быть выбрана в зависимости от задачи
+
