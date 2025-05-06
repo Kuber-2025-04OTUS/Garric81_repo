@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="updates files">
-      <change afterPath="$PROJECT_DIR$/.github/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/cm.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/namespace.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/pod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/pvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storageclass.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
