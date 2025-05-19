@@ -6,4 +6,3 @@ metadata:
 provisioner: k8s.io/minikube-hostpath  # Используем локальное хранилище
 reclaimPolicy: Retain # После удаления PVC PV останется
 volumeBindingMode: Immediate # Сразу привязываем PV и PVC
-
