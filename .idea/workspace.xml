@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="updates work service" />
+    <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="updates work service">
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/init-containers.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/namespace.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pod.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageclass.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volume.yaml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="kubernetes-controllers" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -42,7 +56,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#1 on kubernetes-intro",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/admin/Documents/GitHub/Garric81_repo"
   }
