@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="ДЗ 1">
       <change afterPath="$PROJECT_DIR$/namespace.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pod.yaml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="ДЗ 3! add" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,6 +137,7 @@
       <option name="project" value="LOCAL" />
       <updated>1746539382726</updated>
     </task>
+<<<<<<< Updated upstream
     <task id="LOCAL-00008" summary="ДЗ 1">
       <option name="closed" value="true" />
       <created>1747726372712</created>
@@ -150,6 +155,17 @@
       <updated>1747726536767</updated>
     </task>
     <option name="localTasksCounter" value="10" />
+=======
+    <task id="LOCAL-00008" summary="ДЗ 3! add">
+      <option name="closed" value="true" />
+      <created>1747763126998</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747763126998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,8 +183,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="updates" />
     <MESSAGE value="updates files" />
+<<<<<<< Updated upstream
     <MESSAGE value="updates work service" />
     <MESSAGE value="ДЗ 1" />
     <option name="LAST_COMMIT_MESSAGE" value="ДЗ 1" />
+=======
+    <MESSAGE value="ДЗ 3! add" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ 3! add" />
+>>>>>>> Stashed changes
   </component>
 </project>
