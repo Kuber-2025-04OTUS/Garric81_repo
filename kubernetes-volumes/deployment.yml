@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: homework
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      nodeSelector:
+        homework: "true"
+      volumes:
+        - name: workdir
+          persistentVolumeClaim:
+            claimName: homework-pvc
+        - name: cfg-index
+          configMap:
+            name: homework-index
+        - name: cfg-nginx
+          configMap:
+            name: homework-nginx
+        - name: cfg
+          configMap:
+            name: homework-cm
+      initContainers:
+        - name: init-container
+          image: busybox:1.28
+          command: ["/bin/sh", "-c"]
+          args:
+            - |
+              cp -v /tmp/index.html /init/
+          volumeMounts:
+            - name: cfg-index
+              mountPath: /tmp
+              readOnly: true
+            - name: workdir
+              mountPath: /init
+      containers:
+        - name: web-server
+          image: nginx:1.27.5
+          ports:
+            - containerPort: 8000
+          readinessProbe:
+            httpGet:
+              path: /index.html
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 5
+          volumeMounts:
+            - name: workdir
+              mountPath: /homework
+            - name: cfg-nginx
+              mountPath: /etc/nginx/conf.d
+              readOnly: true
+            - name: cfg
+              mountPath: /homework/conf
+              readOnly: true
+          lifecycle:
+            preStop:
+              exec:
+                command: ["/bin/sh", "-c", "rm -f /homework/index.html"]
+
