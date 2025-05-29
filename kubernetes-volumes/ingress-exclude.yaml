@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: homework-ingress-no-rewrite
+  namespace: homework
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: homework.otus
+      http:
+        paths:
+          - path: /conf/file
+            pathType: Exact
+            backend:
+              service:
+                name: homework-service
+                port:
+                  number: 80
