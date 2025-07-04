@@ -4,16 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="updates files add  folders kubernetes-intro" />
+    <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="updates files add  gitops">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="kubernetes-controllers" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="kubernetes-operators" />
+        <entry key="$PROJECT_DIR$" value="kubernetes-security" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,15 +63,23 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "kubenetes-vault",
+    "git-widget-placeholder": "#23 on kubernetes-gitops",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/Garric81_repo"
+    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/Garric81_repo/kubernetes-gitops"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-gitops" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\.github" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-templating" />
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-security" />
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-volumes" />
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-networks" />
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -200,7 +223,79 @@
       <option name="project" value="LOCAL" />
       <updated>1746539382726</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="kubernetes-networks free">
+      <option name="closed" value="true" />
+      <created>1748258781216</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1748258781216</updated>
+    </task>
+    <task id="LOCAL-00009" summary="kubernetes-networks free">
+      <option name="closed" value="true" />
+      <created>1748281498892</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748281498892</updated>
+    </task>
+    <task id="LOCAL-00010" summary="дЗ1">
+      <option name="closed" value="true" />
+      <created>1748331352209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748331352209</updated>
+    </task>
+    <task id="LOCAL-00011" summary="дЗ2">
+      <option name="closed" value="true" />
+      <created>1748417686388</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748417686388</updated>
+    </task>
+    <task id="LOCAL-00012" summary="дЗ3">
+      <option name="closed" value="true" />
+      <created>1748456384076</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1748456384077</updated>
+    </task>
+    <task id="LOCAL-00013" summary="дЗ4">
+      <option name="closed" value="true" />
+      <created>1748539912652</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748539912652</updated>
+    </task>
+    <task id="LOCAL-00014" summary="дЗ4_update">
+      <option name="closed" value="true" />
+      <created>1748540824538</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748540824538</updated>
+    </task>
+    <task id="LOCAL-00015" summary="дЗ_5">
+      <option name="closed" value="true" />
+      <created>1748541338293</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748541338293</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updates files add  gitops">
+      <option name="closed" value="true" />
+      <created>1751459753942</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1751459753942</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +315,15 @@
     <MESSAGE value="updates files" />
     <MESSAGE value="updates work service" />
     <MESSAGE value="updates files add  folders kubernetes-intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates files add  folders kubernetes-intro" />
+    <MESSAGE value="kubernetes-networks free" />
+    <MESSAGE value="updates work serviciyie" />
+    <MESSAGE value="дЗ1" />
+    <MESSAGE value="дЗ2" />
+    <MESSAGE value="дЗ3" />
+    <MESSAGE value="дЗ4" />
+    <MESSAGE value="дЗ4_update" />
+    <MESSAGE value="дЗ_5" />
+    <MESSAGE value="updates files add  gitops" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates files add  gitops" />
   </component>
 </project>
