@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="дЗ4_update">
+    <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="updates files add  gitops">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="kubernetes-volumes" />
+        <entry key="$PROJECT_DIR$" value="kubernetes-security" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,17 +63,19 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "kubernetes-security",
+    "git-widget-placeholder": "#23 on kubernetes-gitops",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/Garric81_repo"
+    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/Garric81_repo/kubernetes-gitops"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-gitops" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\.github" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-templating" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-security" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-volumes" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-networks" />
@@ -277,7 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748540824538</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="дЗ_5">
+      <option name="closed" value="true" />
+      <created>1748541338293</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748541338293</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updates files add  gitops">
+      <option name="closed" value="true" />
+      <created>1751459753942</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1751459753942</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,6 +322,8 @@
     <MESSAGE value="дЗ3" />
     <MESSAGE value="дЗ4" />
     <MESSAGE value="дЗ4_update" />
-    <option name="LAST_COMMIT_MESSAGE" value="дЗ4_update" />
+    <MESSAGE value="дЗ_5" />
+    <MESSAGE value="updates files add  gitops" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates files add  gitops" />
   </component>
 </project>
