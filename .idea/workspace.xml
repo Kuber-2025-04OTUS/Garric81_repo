@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="updates files add  gitops">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/csi-s3.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/driver.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/provisioner.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/pvc.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/secret.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/storageClass.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/terraform/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/terraform/output.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/terraform/terraform_template.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-csi/terraform/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +75,14 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#23 on kubernetes-gitops",
+    "git-widget-placeholder": "kubernetes-csi",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/Garric81_repo/kubernetes-gitops"
+    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/Garric81_repo/kubernetes-csi"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-csi" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-gitops" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\.github" />
@@ -295,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751459753942</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updates files add  gitops">
+      <option name="closed" value="true" />
+      <created>1752654452424</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752654452424</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
