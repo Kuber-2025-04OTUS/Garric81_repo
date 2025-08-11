@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e0e35f2-d7a0-4340-b9cf-20d458d99a7b" name="Changes" comment="updates files add  kubernetes-logging">
-      <change afterPath="$PROJECT_DIR$/kubernetes-prod/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-yc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-yc/kuber.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes-yc/kuber2.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "kubernetes-prod",
+    "git-widget-placeholder": "kubernetes-yc",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/admin/Documents/GitHub/Garric81_repo/kubernetes-gitops"
   }
@@ -76,11 +78,11 @@
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\.github" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-yc" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-logging" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-templating" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-security" />
       <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-volumes" />
-      <recent name="C:\Users\admin\Documents\GitHub\Garric81_repo\kubernetes-networks" />
     </key>
   </component>
   <component name="RunManager">
